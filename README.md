@@ -6,7 +6,7 @@ FindArt is an artificial intelligence themed website. Image Classification by Mo
 The main purpose of the project is to guess which painter is a picture you upload to the site and to provide artificial intelligence service. It also gives a brief information about the artist shown as a result and shows the accuracy rate of the result. This website was built with Python's Django library used for website development and distributed with Huawei Services.
 
 
-The data consists of 50 painters and approximation 8k tables.
+The data consists of 50 painters and approximation 8k pictures.
 Source: _https://www.kaggle.com/code/supratimhaldar/deepartist-identify-artist-from-art/data_
 
 The storage of the data is done with OBS from Huawei Cloud services, and the training is done with Modelarts-ExeML. The created service was accessed through the API in the views.py file.
